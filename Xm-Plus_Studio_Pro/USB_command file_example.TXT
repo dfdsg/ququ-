@@ -1,0 +1,24 @@
+//-------------------------------------------
+// aw/AW     : addr write, ex. 0x12 aw
+// dw/DW     : data write, ex. 0x34 dw
+// adw/ADW   : addr/data write, ex. 0x12 0x34 adw,
+// => max.(20 bytes), odd:addr, even:data
+// bdw/BDW   : bulk data write, max.(256 bytes). 
+// => not for I2C interface
+// dr/DR     : data port read.
+// d1ms/D1MS : delay ?/ms, ex. 100 d1ms 
+// => delay 100ms
+// 0xab = hex.
+//-------------------------------------------
+//************* Command edit ****************
+//*******************************************
+0xf1 35 adw
+0xf2 62 adw
+
+0xf0 0x11 adw
+5 d1ms
+0xf0 0x10 adw
+5 d1ms
+
+0x8a aw
+

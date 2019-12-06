@@ -1,0 +1,208 @@
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM-Plus Studio Pro_v01.csprojAssemblyReference.cache
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM-Plus Studio Pro_v01.csproj.ResolveComReference.cache
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.ColorPort_Form.resources
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Help_Form.resources
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.About.resources
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.InterfaceSetting_Form.resources
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.CommPort_Form.resources
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.ImgShow_Form.resources
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.MipiLp_SlewRate_Form.resources
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Scope_Form.resources
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.ScriptSetting_Form.resources
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.MainSetting_Form.resources
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Main_Form.resources
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Properties.Resources.resources
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.SubTabPage.resources
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.ExpandFpga_Form.resources
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.PWM_Measure.resources
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.SDCardControl.resources
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Setting_Form.resources
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Source_Measure.resources
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Splash.resources
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.TC_S8521_Form.resources
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Instrument.resources
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.USB2EPP_ComEdit.resources
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.USB_Flash_Program.resources
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.XmFileCompare.resources
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.XmGammaTool.resources
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.XmChart.resources
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Instrument.zh-Hans.resources
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM-Plus Studio Pro_v01.csproj.GenerateResource.cache
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM-Plus Studio Pro_v01.csproj.CoreCompileInputs.cache
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\bin\Debug\XMDisplayStudio.exe.config
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\bin\Debug\XMDisplayStudio.exe
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\bin\Debug\XMDisplayStudio.pdb
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\bin\Debug\zh-Hans\XMDisplayStudio.resources.dll
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\bin\Debug\TabStrip.dll
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\bin\Debug\XMGridViewCtrl.dll
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\bin\Debug\XMToolDll.dll
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\zh-Hans\XMDisplayStudio.resources.dll
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM-Plus Studio Pro_v01.csproj.CopyComplete
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XMDisplayStudio.exe
+C:\Users\D12\Desktop\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XMDisplayStudio.pdb
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\bin\Debug\XMDisplayStudio.exe.config
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\bin\Debug\XMDisplayStudio.exe
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\bin\Debug\XMDisplayStudio.pdb
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\bin\Debug\zh-Hans\XMDisplayStudio.resources.dll
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\bin\Debug\TabStrip.dll
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\bin\Debug\XMGridViewCtrl.dll
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\bin\Debug\XMToolDll.dll
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM-Plus Studio Pro_v01.csprojAssemblyReference.cache
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM-Plus Studio Pro_v01.csproj.ResolveComReference.cache
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.ColorPort_Form.resources
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Help_Form.resources
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.About.resources
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.InterfaceSetting_Form.resources
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.CommPort_Form.resources
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.ImgShow_Form.resources
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.MipiLp_SlewRate_Form.resources
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Scope_Form.resources
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.ScriptSetting_Form.resources
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.MainSetting_Form.resources
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Main_Form.resources
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Properties.Resources.resources
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.SubTabPage.resources
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.ExpandFpga_Form.resources
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.PWM_Measure.resources
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.SDCardControl.resources
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Setting_Form.resources
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Source_Measure.resources
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Splash.resources
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.TC_S8521_Form.resources
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Instrument.resources
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.USB2EPP_ComEdit.resources
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.USB_Flash_Program.resources
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.XmFileCompare.resources
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.XmGammaTool.resources
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.XmChart.resources
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Instrument.zh-Hans.resources
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM-Plus Studio Pro_v01.csproj.GenerateResource.cache
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM-Plus Studio Pro_v01.csproj.CoreCompileInputs.cache
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\zh-Hans\XMDisplayStudio.resources.dll
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM-Plus Studio Pro_v01.csproj.CopyComplete
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XMDisplayStudio.exe
+C:\Users\D12\Desktop\XMDisplayStudio    initial code\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XMDisplayStudio.pdb
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\bin\Debug\XMDisplayStudio.exe.config
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\bin\Debug\XMDisplayStudio.exe
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\bin\Debug\XMDisplayStudio.pdb
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\bin\Debug\zh-Hans\XMDisplayStudio.resources.dll
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\bin\Debug\TabStrip.dll
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\bin\Debug\XMGridViewCtrl.dll
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\bin\Debug\XMToolDll.dll
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM-Plus Studio Pro_v01.csproj.ResolveComReference.cache
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.ColorPort_Form.resources
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Help_Form.resources
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.About.resources
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.InterfaceSetting_Form.resources
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.CommPort_Form.resources
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.ImgShow_Form.resources
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.MipiLp_SlewRate_Form.resources
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Scope_Form.resources
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.ScriptSetting_Form.resources
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.MainSetting_Form.resources
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Main_Form.resources
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Properties.Resources.resources
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.SubTabPage.resources
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.ExpandFpga_Form.resources
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.PWM_Measure.resources
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.SDCardControl.resources
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Setting_Form.resources
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Source_Measure.resources
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Splash.resources
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.TC_S8521_Form.resources
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Instrument.resources
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.USB2EPP_ComEdit.resources
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.USB_Flash_Program.resources
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.XmFileCompare.resources
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.XmGammaTool.resources
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.XmChart.resources
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Instrument.zh-Hans.resources
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM-Plus Studio Pro_v01.csproj.GenerateResource.cache
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM-Plus Studio Pro_v01.csproj.CoreCompileInputs.cache
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\zh-Hans\XMDisplayStudio.resources.dll
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM-Plus Studio Pro_v01.csproj.CopyComplete
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XMDisplayStudio.exe
+D:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XMDisplayStudio.pdb
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\bin\Debug\XMDisplayStudio.exe.config
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\bin\Debug\XMDisplayStudio.exe
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\bin\Debug\XMDisplayStudio.pdb
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\bin\Debug\zh-Hans\XMDisplayStudio.resources.dll
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\bin\Debug\TabStrip.dll
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\bin\Debug\XMGridViewCtrl.dll
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\bin\Debug\XMToolDll.dll
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM-Plus Studio Pro_v01.csproj.ResolveComReference.cache
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.ColorPort_Form.resources
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Help_Form.resources
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.About.resources
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.InterfaceSetting_Form.resources
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.CommPort_Form.resources
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.ImgShow_Form.resources
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.MipiLp_SlewRate_Form.resources
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Scope_Form.resources
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.ScriptSetting_Form.resources
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.MainSetting_Form.resources
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Main_Form.resources
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Properties.Resources.resources
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.SubTabPage.resources
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.ExpandFpga_Form.resources
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.PWM_Measure.resources
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.SDCardControl.resources
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Setting_Form.resources
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Source_Measure.resources
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Splash.resources
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.TC_S8521_Form.resources
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Instrument.resources
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.USB2EPP_ComEdit.resources
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.USB_Flash_Program.resources
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.XmFileCompare.resources
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.XmGammaTool.resources
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.XmChart.resources
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Instrument.zh-Hans.resources
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM-Plus Studio Pro_v01.csproj.GenerateResource.cache
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM-Plus Studio Pro_v01.csproj.CoreCompileInputs.cache
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\zh-Hans\XMDisplayStudio.resources.dll
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM-Plus Studio Pro_v01.csproj.CopyComplete
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XMDisplayStudio.exe
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XMDisplayStudio.pdb
+E:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM-Plus Studio Pro_v01.csprojAssemblyReference.cache
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM-Plus Studio Pro_v01.csproj.ResolveComReference.cache
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.ColorPort_Form.resources
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Help_Form.resources
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.About.resources
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.InterfaceSetting_Form.resources
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.CommPort_Form.resources
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.ImgShow_Form.resources
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.MipiLp_SlewRate_Form.resources
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Scope_Form.resources
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.ScriptSetting_Form.resources
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.MainSetting_Form.resources
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Main_Form.resources
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.SubTabPage.resources
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.ExpandFpga_Form.resources
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.PWM_Measure.resources
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.SDCardControl.resources
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Setting_Form.resources
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Source_Measure.resources
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Splash.resources
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.TC_S8521_Form.resources
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Instrument.resources
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.USB2EPP_ComEdit.resources
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.USB_Flash_Program.resources
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.XmFileCompare.resources
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.XmGammaTool.resources
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.XmChart.resources
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Instrument.zh-Hans.resources
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM-Plus Studio Pro_v01.csproj.GenerateResource.cache
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XMDisplayStudio.exe
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XMDisplayStudio.pdb
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM_Tek_Studio_Pro.Properties.Resources.resources
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM-Plus Studio Pro_v01.csproj.CoreCompileInputs.cache
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\bin\Debug\XMDisplayStudio.exe.config
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\bin\Debug\XMDisplayStudio.exe
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\bin\Debug\XMDisplayStudio.pdb
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\bin\Debug\zh-Hans\XMDisplayStudio.resources.dll
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\bin\Debug\TabStrip.dll
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\bin\Debug\XMGridViewCtrl.dll
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\bin\Debug\XMToolDll.dll
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\zh-Hans\XMDisplayStudio.resources.dll
+F:\XmDisplayStudio\Xm-Plus_Studio_Pro\obj\x86\Debug\XM-Plus Studio Pro_v01.csproj.CopyComplete

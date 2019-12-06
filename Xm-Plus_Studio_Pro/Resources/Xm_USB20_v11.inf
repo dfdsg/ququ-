@@ -1,0 +1,108 @@
+;------------------------------------------------------------
+; Xm+_USB20.INF  --   Windows 8/7/2000/9x/Me Setup File 
+;
+; For Xm-plus USB controller
+;------------------------------------------------------------
+[Version]
+Signature="$CHICAGO$"
+Provider="Xiamen Xm-plus Technology Ltd."
+LayoutFile=layout.inf, layout1.inf, layout2.inf
+DriverVer = 04/10/2013,2.0.4
+Class=Xm-plus
+ClassGUID={46D426C2-048D-4DB7-A198-D6814E24B341}
+
+; ================= Class section =====================
+[ClassInstall]
+AddReg = Xm-plusClassReg
+
+[ClassInstall32]
+Addreg=Xm-plusClassReg
+
+[Xm-plusClassReg]
+HKR,,,0,"Xm-plus PC-Based Instrument"
+HKR,,Icon,,-5
+
+; ================= Device Install section =====================
+[DestinationDirs]
+; By default, files will be copied to \windows\system.
+DefaultDestDir=11
+
+[Manufacturer]
+%Device.Mfg% = Xm-plusProduct, NTamd64, NTia64
+
+[Xm-plusProduct]
+%Device.DeviceDesc% = Device.USB,  USB\VID_05e3&PID_0182   ;//default value
+%Device.DeviceDesc% = Device.USB,  USB\VID_04fc&PID_0888   ;
+%Device.DeviceDesc% = Device.USB,  USB\VID_0638&PID_0a21
+%Device.DeviceDesc1a0% = Device.USB,  USB\VID_05e3&PID_01a0   ;//Xm-plus product-0
+%Device.DeviceDesc1a1% = Device.USB,  USB\VID_05e3&PID_01a1   ;//Xm-plus product-1
+%Device.DeviceDesc1a2% = Device.USB,  USB\VID_05e3&PID_01a2   ;//Xm-plus product-2
+%Device.DeviceDesc1a3% = Device.USB,  USB\VID_05e3&PID_01a3   ;//Xm-plus product-3
+%Device.DeviceDesc1a4% = Device.USB,  USB\VID_05e3&PID_01a4   ;//Xm-plus product-4
+%Device.DeviceDesc1a5% = Device.USB,  USB\VID_05e3&PID_01a5   ;//Xm-plus product-5
+
+
+[Xm-plusProduct.ntamd64]
+%Device.DeviceDesc% = Device.USB,  USB\VID_05e3&PID_0182   ;//default value
+%Device.DeviceDesc% = Device.USB,  USB\VID_04fc&PID_0888   ;
+%Device.DeviceDesc% = Device.USB,  USB\VID_0638&PID_0a21
+%Device.DeviceDesc1a0% = Device.USB,  USB\VID_05e3&PID_01a0   ;//Xm-plus product-0
+%Device.DeviceDesc1a1% = Device.USB,  USB\VID_05e3&PID_01a1   ;//Xm-plus product-1
+%Device.DeviceDesc1a2% = Device.USB,  USB\VID_05e3&PID_01a2   ;//Xm-plus product-2
+%Device.DeviceDesc1a3% = Device.USB,  USB\VID_05e3&PID_01a3   ;//Xm-plus product-3
+%Device.DeviceDesc1a4% = Device.USB,  USB\VID_05e3&PID_01a4   ;//Xm-plus product-4
+%Device.DeviceDesc1a5% = Device.USB,  USB\VID_05e3&PID_01a5   ;//Xm-plus product-5
+
+[Xm-plusProduct.NTia64]
+%Device.DeviceDesc% = Device.USB,  USB\VID_05e3&PID_0182   ;//default value
+%Device.DeviceDesc% = Device.USB,  USB\VID_04fc&PID_0888   ;
+%Device.DeviceDesc% = Device.USB,  USB\VID_0638&PID_0a21
+%Device.DeviceDesc1a0% = Device.USB,  USB\VID_05e3&PID_01a0   ;//Xm-plus product-0
+%Device.DeviceDesc1a1% = Device.USB,  USB\VID_05e3&PID_01a1   ;//Xm-plus product-1
+%Device.DeviceDesc1a2% = Device.USB,  USB\VID_05e3&PID_01a2   ;//Xm-plus product-2
+%Device.DeviceDesc1a3% = Device.USB,  USB\VID_05e3&PID_01a3   ;//Xm-plus product-3
+%Device.DeviceDesc1a4% = Device.USB,  USB\VID_05e3&PID_01a4   ;//Xm-plus product-4
+%Device.DeviceDesc1a5% = Device.USB,  USB\VID_05e3&PID_01a5   ;//Xm-plus product-5
+
+[Device.USB]
+Include=sti.inf
+Needs=STI.USBSection
+AddReg=Device.AddReg
+CopyFiles=Device.CopyFiles
+DelFiles=Device.DelSysFiles
+DeviceData=Device.DeviceData
+UninstallSection=Uninstall.Device
+
+[Device.USB.Services]
+Include=sti.inf
+Needs=STI.USBSection.Services
+
+
+[Device.AddReg]
+HKR,,HardwareConfig,1,2
+HKR,,DevLoader,,*NTKERN
+HKR,,NTMPDriver,,USBSCAN.SYS
+
+
+[Device.CopyFiles]
+usbscan.sys
+
+[Device.CopySys32Files]
+
+[Uninstall.Device]
+DelFiles=Device.DelSysFiles
+
+[Device.DelSysFiles]
+
+[Strings]
+Prov="Xm-plus"
+Device.Mfg="Xiamen Xm-plus Technology Ltd."
+Device.DeviceDesc="Xm-plus USB2.0 Device"
+Device.DeviceDesc1a0="Xm-plus USB2.0 Device_0"
+Device.DeviceDesc1a1="Xm-plus USB2.0 Device_1"
+Device.DeviceDesc1a2="Xm-plus USB2.0 Device_2"
+Device.DeviceDesc1a3="Xm-plus USB2.0 Device_3"
+Device.DeviceDesc1a4="Xm-plus USB2.0 Device_4"
+Device.DeviceDesc1a5="Xm-plus USB2.0 Device_5"
+Diskname="Xm-plus USB2.0 driver"
+

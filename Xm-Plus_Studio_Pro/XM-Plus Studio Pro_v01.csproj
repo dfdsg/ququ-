@@ -1,0 +1,600 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7BD5F1F2-C3BC-406A-B84C-F29096F5D4E2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>XM_Tek_Studio_Pro</RootNamespace>
+    <AssemblyName>XMDisplayStudio</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>6</ApplicationRevision>
+    <ApplicationVersion>2.0.0.6</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>939987D40C11AF097526833B339AB457DF84A4B9</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>SC-tek Studio Pro_v01_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="KClmtrWrapper">
+      <HintPath>..\XMColoredBinary\KClmtrWrapper.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\XMColoredBinary\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TabStrip, Version=2.0.2523.29272, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\XMColoredBinary\TabStrip.dll</HintPath>
+    </Reference>
+    <Reference Include="XMColoredLib, Version=2.16.23.0, Culture=neutral, PublicKeyToken=fb8aa12b994ef61b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\XMColoredBinary\XMColoredLib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="XMGridViewCtrl">
+      <HintPath>..\XMColoredBinary\XMGridViewCtrl.dll</HintPath>
+    </Reference>
+    <Reference Include="XMToolDll, Version=1.0.0.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\XMToolDll.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ColorPort_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ColorPort_Form.Designer.cs">
+      <DependentUpon>ColorPort_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Comm\XM_Comm_IO.cs" />
+    <Compile Include="Help_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help_Form.Designer.cs">
+      <DependentUpon>Help_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommPort_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommPort_Form.Designer.cs">
+      <DependentUpon>CommPort_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Comm\XM_Comm.cs" />
+    <Compile Include="InterfaceSetting_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfaceSetting_Form.Designer.cs">
+      <DependentUpon>InterfaceSetting_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\ProgressBarEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ImgShow_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImgShow_Form.Designer.cs">
+      <DependentUpon>ImgShow_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MipiLp_SlewRate_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MipiLp_SlewRate_Form.designer.cs">
+      <DependentUpon>MipiLp_SlewRate_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Scope_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Scope_Form.Designer.cs">
+      <DependentUpon>Scope_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SDCardControl_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SDCardControl_Form.Designer.cs">
+      <DependentUpon>SDCardControl_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setting_Form.designer.cs">
+      <DependentUpon>Setting_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Source_Measure.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Source_Measure.designer.cs">
+      <DependentUpon>Source_Measure.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash.designer.cs">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudioUtil\XM_Cpu_Util.cs" />
+    <Compile Include="StudioUtil\XM_I2C_Util.cs" />
+    <Compile Include="StudioUtil\XM_IFSpt_Util.cs" />
+    <Compile Include="StudioUtil\XM_Mipi_Util.cs" />
+    <Compile Include="StudioUtil\XM_SDCard_Util.cs" />
+    <Compile Include="StudioUtil\XM_Spi_Util.cs" />
+    <Compile Include="StudioUtil\XM_PageInfo_Util.cs" />
+    <Compile Include="TC_S8521_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TC_S8521_Form.Designer.cs">
+      <DependentUpon>TC_S8521_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TemperatureTest_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TemperatureTest_Form.designer.cs">
+      <DependentUpon>TemperatureTest_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XMComm\XM_ExeCmd.cs" />
+    <Compile Include="XMComm\XM_ExeCommCmd.cs" />
+    <Compile Include="XMComm\XM_ExeEquipCmd.cs" />
+    <Compile Include="XMComm\XM_ExeForCmd.cs" />
+    <Compile Include="XMComm\XM_ExeKleinCmd.cs" />
+    <Compile Include="XMComm\XM_ExeSysCmd.cs" />
+    <Compile Include="XMComm\XM_ExeWol_Util.cs" />
+    <Compile Include="Comm\XM_Visa32.cs" />
+    <Compile Include="PWM_Measure.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PWM_Measure.designer.cs">
+      <DependentUpon>PWM_Measure.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudioUtil\XM_Digital_Util.cs" />
+    <Compile Include="StudioUtil\XM_HidUtil.cs" />
+    <Compile Include="ScriptSetting_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScriptSetting_Form.Designer.cs">
+      <DependentUpon>ScriptSetting_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainSetting_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainSetting_Form.Designer.cs">
+      <DependentUpon>MainSetting_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_Form.Designer.cs">
+      <DependentUpon>Main_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigWizzard\MyTabPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StudioUtil\XM_Bridge_Flash.cs" />
+    <Compile Include="Comm\XM_Comm_USB.cs" />
+    <Compile Include="XMComm\XM_ExeMainCmd.cs" />
+    <Compile Include="StudioUtil\XM_Bridge_Util.cs" />
+    <Compile Include="XMComm\XM_Cmd_Lib.cs" />
+    <Compile Include="StudioUtil\XM_Equip_Util.cs" />
+    <Compile Include="StudioUtil\XM_Img_Lib.cs" />
+    <Compile Include="StudioUtil\XM_Ini_Util.cs" />
+    <Compile Include="StudioUtil\XM_IO_Util.cs" />
+    <Compile Include="ConfigWizzard\SubTabPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfigWizzard\SubTabPage.Designer.cs">
+      <DependentUpon>SubTabPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudioUtil\XM_Log_Util.cs" />
+    <Compile Include="StudioUtil\XM_Param_Util.cs" />
+    <Compile Include="ExpandFpga_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExpandFpga_Form.Designer.cs">
+      <DependentUpon>ExpandFpga_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XMComm\XM_ExeWolCmd_Util.cs" />
+    <Compile Include="StudioUtil\XM_Sytem_API.cs" />
+    <Compile Include="USB2EPP_ComEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="USB2EPP_ComEdit.Designer.cs">
+      <DependentUpon>USB2EPP_ComEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="USB_Flash_Program.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="USB_Flash_Program.Designer.cs">
+      <DependentUpon>USB_Flash_Program.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XmFileCompare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XmFileCompare.Designer.cs">
+      <DependentUpon>XmFileCompare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XmGammaTool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XmGammaTool.Designer.cs">
+      <DependentUpon>XmGammaTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XmChart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XmChart.Designer.cs">
+      <DependentUpon>XmChart.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ColorPort_Form.resx">
+      <DependentUpon>ColorPort_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help_Form.resx">
+      <DependentUpon>Help_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfaceSetting_Form.resx">
+      <DependentUpon>InterfaceSetting_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommPort_Form.resx">
+      <DependentUpon>CommPort_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImgShow_Form.resx">
+      <DependentUpon>ImgShow_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MipiLp_SlewRate_Form.resx">
+      <DependentUpon>MipiLp_SlewRate_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Cut1.0_Item 1_1_Power.xls" />
+    <EmbeddedResource Include="Resources\Cut1.0_Item 1_1_PowerOnOff.xls" />
+    <EmbeddedResource Include="Resources\XMToolDll.dll" />
+    <EmbeddedResource Include="Scope_Form.resx">
+      <DependentUpon>Scope_Form.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScriptSetting_Form.resx">
+      <DependentUpon>ScriptSetting_Form.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainSetting_Form.resx">
+      <DependentUpon>MainSetting_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_Form.resx">
+      <DependentUpon>Main_Form.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigWizzard\SubTabPage.resx">
+      <DependentUpon>SubTabPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExpandFpga_Form.resx">
+      <DependentUpon>ExpandFpga_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PWM_Measure.resx">
+      <DependentUpon>PWM_Measure.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SDCardControl_Form.resx">
+      <DependentUpon>SDCardControl_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting_Form.resx">
+      <DependentUpon>Setting_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source_Measure.resx">
+      <DependentUpon>Source_Measure.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash.resx">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TC_S8521_Form.resx">
+      <DependentUpon>TC_S8521_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TemperatureTest_Form.resx">
+      <DependentUpon>TemperatureTest_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TemperatureTest_Form.zh-Hans.resx">
+      <DependentUpon>TemperatureTest_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="USB2EPP_ComEdit.resx">
+      <DependentUpon>USB2EPP_ComEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="USB_Flash_Program.resx">
+      <DependentUpon>USB_Flash_Program.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XmFileCompare.resx">
+      <DependentUpon>XmFileCompare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XmGammaTool.resx">
+      <DependentUpon>XmGammaTool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XmChart.resx">
+      <DependentUpon>XmChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="bin\Debug\Command List.csv" />
+    <None Include="bin\Debug\System\System.ini" />
+    <None Include="Properties\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Command List.csv" />
+    <None Include="Resources\Default_Config_V01.ini" />
+    <EmbeddedResource Include="Resources\INRUSH_CURRENT_RIPPLE_RELAY_BOARD_UserGuide" />
+    <None Include="Resources\Save_48x48.png" />
+    <None Include="Resources\Right_Arrow_48x48.png" />
+    <None Include="Resources\open_48.png" />
+    <None Include="Resources\logo-i2c.png" />
+    <None Include="Resources\exit_64x64.png" />
+    <None Include="Resources\empty_72x72.png" />
+    <None Include="Resources\30_Office_48x48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agilent-logo_76x64.png" />
+    <None Include="Resources\stop_red_64x64.png" />
+    <None Include="Resources\play_green_64x64.png" />
+    <None Include="Resources\stop_red_256x256.png" />
+    <None Include="Resources\play_green_256x256.png" />
+    <None Include="Resources\icon_stop_trans.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\display.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Start.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\XMGridViewCtrl.dll" />
+    <None Include="Resources\UnComment.png" />
+    <None Include="Resources\spi_csbyuser.jpg" />
+    <None Include="Resources\spi_csbymodule.jpg" />
+    <None Include="Resources\spi_ret.jpg" />
+    <None Include="Resources\spi_fet.jpg" />
+    <None Include="Resources\IfSet.png" />
+    <None Include="Resources\close.png" />
+    <None Include="Resources\closeBlack.png" />
+    <None Include="Resources\PWM-Icon.png" />
+    <None Include="Resources\Comment.png" />
+    <EmbeddedResource Include="Resources\DataGridViewNumericUpDownElements.dll" />
+    <EmbeddedResource Include="Resources\KClmtrWrapper.dll" />
+    <EmbeddedResource Include="Resources\008_Command_mode_init_code.txt" />
+    <Content Include="Resources\SDCard.jpg" />
+    <None Include="Resources\SDCardtoBin.jpg" />
+    <None Include="Resources\slew_icon.png" />
+    <None Include="Resources\slew.ico" />
+    <EmbeddedResource Include="Resources\CPT47_iPhone6_initialcode_20180521.txt" />
+    <EmbeddedResource Include="Resources\PAT_gen_V13.exe" />
+    <EmbeddedResource Include="Resources\XMColoredLib.dll" />
+    <EmbeddedResource Include="Resources\Xm92180.ini" />
+    <None Include="Resources\Xm_USB20_v11.inf" />
+    <None Include="Resources\RS232_Open.png" />
+    <None Include="Resources\RS_232.png" />
+    <None Include="Resources\CA210_Open.png" />
+    <None Include="Resources\RS_232_NO.png" />
+    <None Include="Resources\RS232_No.png" />
+    <None Include="Resources\RS232.png" />
+    <None Include="Resources\CA210_NO.png" />
+    <None Include="Resources\CA210.png" />
+    <None Include="Resources\open_32.png" />
+    <None Include="Resources\XmPlus.png" />
+    <None Include="Resources\XmMain.png" />
+    <None Include="Resources\source.png" />
+    <None Include="Resources\whisky.txt" />
+    <None Include="Resources\USB_Icon.png" />
+    <None Include="Resources\temp.png" />
+    <None Include="Resources\CommOpen.png" />
+    <None Include="Resources\CommClose.png" />
+    <None Include="Resources\CommPlay.png" />
+    <None Include="Resources\CommConfig.png" />
+    <None Include="Resources\K80.png" />
+    <None Include="Resources\ciexyz.png" />
+    <None Include="Resources\oscilloscope.png" />
+    <None Include="Resources\digital.png" />
+    <None Include="Resources\Question.png" />
+    <None Include="Resources\flash.ico" />
+    <None Include="Resources\Aglient.png" />
+    <None Include="Resources\about-us.png" />
+    <None Include="Resources\Pattern.png" />
+    <None Include="Resources\oscilloscope1.png" />
+    <None Include="Resources\oscilloscope_s.png" />
+    <None Include="Resources\copy.png" />
+    <None Include="Resources\PWM.png" />
+    <None Include="Resources\center_sp.png" />
+    <None Include="Resources\newtab.png" />
+    <None Include="Resources\del.png" />
+    <None Include="Resources\closeall.png" />
+    <None Include="Resources\centerl.png" />
+    <Content Include="logo.ico" />
+    <None Include="Resources\settings.png" />
+    <None Include="Resources\home.ico" />
+    <None Include="Resources\cpu data bus.jpg" />
+    <None Include="Resources\RGB chart.jpg" />
+    <None Include="Resources\de_p0.jpg" />
+    <None Include="Resources\de_p1.jpg" />
+    <None Include="Resources\hs_p0.jpg" />
+    <None Include="Resources\hs_p1.jpg" />
+    <None Include="Resources\pclk_p0.jpg" />
+    <None Include="Resources\pclk_p1.jpg" />
+    <None Include="Resources\vs_p0.jpg" />
+    <None Include="Resources\vs_p1.jpg" />
+    <None Include="Resources\RGB DATA BUS.bmp" />
+    <None Include="Resources\RGB DATA BUS.jpg" />
+    <None Include="Resources\RGB_d000.jpg" />
+    <None Include="Resources\RGB_d001.jpg" />
+    <None Include="Resources\RGB_d010.jpg" />
+    <None Include="Resources\RGB_d011.jpg" />
+    <None Include="Resources\RGB_d100.jpg" />
+    <None Include="Resources\RGB_d101.jpg" />
+    <None Include="Resources\RGB_d110.jpg" />
+    <None Include="Resources\RGB_d111.jpg" />
+    <None Include="Resources\spi_3w9b.jpg" />
+    <None Include="Resources\spi_4w8b.jpg" />
+    <None Include="Resources\spi_rd_wdmy.jpg" />
+    <None Include="Resources\spi_rd_wodmy.jpg" />
+    <None Include="Resources\spi_sck_speed.jpg" />
+    <None Include="Resources\i2c_timing.jpg" />
+    <None Include="Resources\cpu data bus_1.jpg" />
+    <None Include="Resources\cpu data bus_2.jpg" />
+    <None Include="Resources\cpu data bus_3.jpg" />
+    <None Include="Resources\cpu data bus_4.jpg" />
+    <None Include="Resources\cpu data bus_5.jpg" />
+    <None Include="Resources\cpu data bus_6.jpg" />
+    <None Include="Resources\cpu data bus_7.jpg" />
+    <None Include="Resources\cpu data bus_8.jpg" />
+    <EmbeddedResource Include="Resources\EPP2USB_DLL_V12.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="VisaComLib">
+      <Guid>{DB8CBF00-D6D3-11D4-AA51-00A024EE30BD}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

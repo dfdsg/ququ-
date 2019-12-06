@@ -1,0 +1,523 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="logo_i2c" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo-i2c.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CommPlay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CommPlay.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\temp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cpu data bus_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cpu data bus_4.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MSG_SPT_FORERR" xml:space="preserve">
+    <value>for and endfor must be Paired</value>
+  </data>
+  <data name="STR_CPU_MSG" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="MSG_SPT_PASS" xml:space="preserve">
+    <value>PASS</value>
+  </data>
+  <data name="USB_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\USB_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="i2c_timing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\i2c_timing.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOG_CPU_I80" xml:space="preserve">
+    <value>CPU , I80</value>
+  </data>
+  <data name="RGB_d000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RGB_d000.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RGB DATA BUS1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RGB DATA BUS.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_I2C" xml:space="preserve">
+    <value>I2C</value>
+  </data>
+  <data name="CA210" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CA210.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IfSet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IfSet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RGB DATA BUS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RGB DATA BUS.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CommClose" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CommClose.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="about-us" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\about-us.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MSG_SPT_ERR" xml:space="preserve">
+    <value>ERROR(No Cmd , Par Err)</value>
+  </data>
+  <data name="de_p0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\de_p0.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CA210_Open" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CA210_Open.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spi_ret" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spi_ret.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MSG_SPT_COMMENT" xml:space="preserve">
+    <value>COMMENT</value>
+  </data>
+  <data name="Pattern" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pattern.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\slew.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOG_CPU_M68" xml:space="preserve">
+    <value>CPU , M68</value>
+  </data>
+  <data name="CommOpen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CommOpen.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spi_4w8b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spi_4w8b.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CommConfig" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CommConfig.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_NULL_HEX" xml:space="preserve">
+    <value>0x00 0x00</value>
+  </data>
+  <data name="MSG_SPT_LACKFOR" xml:space="preserve">
+    <value>It is short of for</value>
+  </data>
+  <data name="newtab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\newtab.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RGB_d010" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RGB_d010.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_FPGA_SET" xml:space="preserve">
+    <value>fpga.set 0x00 0x00</value>
+  </data>
+  <data name="play_green_64x64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\play_green_64x64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CA210_NO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CA210_NO.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RGB_d110" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RGB_d110.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cpu data bus_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cpu data bus_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exit_64x64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exit_64x64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RGB_d011" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RGB_d011.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RS232_NO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RS_232_NO.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cpu data bus_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cpu data bus_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MSG_SPT_SPACE" xml:space="preserve">
+    <value>SPACE</value>
+  </data>
+  <data name="STR_CPU_M68" xml:space="preserve">
+    <value>M68</value>
+  </data>
+  <data name="RGB_d101" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RGB_d101.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aglient" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Aglient.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\K80.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CPT47_iPhone6_initialcode_20180521" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CPT47_iPhone6_initialcode_20180521.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;big5</value>
+  </data>
+  <data name="close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="XMColoredLib" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\XMColoredLib.dll;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="spi_rd_wodmy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spi_rd_wodmy.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MSG_SPT_WARN" xml:space="preserve">
+    <value>WARN(Parm&gt;255)</value>
+  </data>
+  <data name="digital" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\digital.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pclk_p0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pclk_p0.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="de_p1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\de_p1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hs_p0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hs_p0.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spi_rd_wdmy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spi_rd_wdmy.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PAT_gen_V13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PAT_gen_V13.exe;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="vs_p1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vs_p1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="source" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\source.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vs_p0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vs_p0.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="XmPlus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\XmPlus.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cpu data bus_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cpu data bus_6.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Comment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Comment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_SPI" xml:space="preserve">
+    <value>SPI</value>
+  </data>
+  <data name="Cut1_0_Item_1_1_Power" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cut1.0_Item 1_1_Power.xls;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\copy.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Start" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Start.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PWM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PWM.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cpu data bus_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cpu data bus_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cpu data bus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cpu data bus.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cpu data bus_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cpu data bus_7.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spi_csbymodule" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spi_csbymodule.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RS232" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RS_232.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PWM-Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PWM-Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hs_p1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hs_p1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Save_48x48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Save_48x48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="open_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\open_32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spi_csbyuser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spi_csbyuser.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="display" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\display.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cpu data bus_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cpu data bus_8.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oscilloscope1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oscilloscope1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Right_Arrow_48x48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Right_Arrow_48x48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="open_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\open_48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Question" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Question.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oscilloscope_s" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oscilloscope_s.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pclk_p1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pclk_p1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STR_SPI_SET" xml:space="preserve">
+    <value>spi.set</value>
+  </data>
+  <data name="RGB chart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RGB chart.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RS232_Open" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RS232_Open.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="center_sp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\center_sp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="closeall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\closeall.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spi_3w9b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spi_3w9b.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="agilent_logo_76x64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\agilent-logo_76x64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ciexyz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ciexyz.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Default_Config_V01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Default_Config_V01.ini;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;big5</value>
+  </data>
+  <data name="RGB_d001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RGB_d001.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slew_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\slew_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="empty_72x72" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\empty_72x72.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_stop_trans" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_stop_trans.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spi_fet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spi_fet.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="closeBlack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\closeBlack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INRUSH_CURRENT_RIPPLE_RELAY_BOARD_UserGuide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\INRUSH_CURRENT_RIPPLE_RELAY_BOARD_UserGuide;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="STR_I2C_SET" xml:space="preserve">
+    <value>i2c.set</value>
+  </data>
+  <data name="oscilloscope" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oscilloscope.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RGB_d111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RGB_d111.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cpu data bus_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cpu data bus_5.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MSG_SPT_READ" xml:space="preserve">
+    <value>READMSG</value>
+  </data>
+  <data name="STR_CPU_I80" xml:space="preserve">
+    <value>I80</value>
+  </data>
+  <data name="MSG_SPT_LACKENDFOR" xml:space="preserve">
+    <value>It is short of endfor</value>
+  </data>
+  <data name="settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settings.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="centerl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\centerl.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stop_red_64x64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stop_red_64x64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spi_sck_speed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spi_sck_speed.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="XmMain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\XmMain.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EPP2USB_DLL_V12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EPP2USB_DLL_V12.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RGB_d100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RGB_d100.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flash.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Xm_USB20_v11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Xm_USB20_v11.inf;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;big5</value>
+  </data>
+  <data name="del" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\del.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_30_Office_48x48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\30_Office_48x48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SDCardtoBin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SDCardtoBin.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UnComment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UnComment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KClmtrWrapper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KClmtrWrapper.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="XMGridViewCtrl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\XMGridViewCtrl.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CLOSE_MSG" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="COMM_MSG" xml:space="preserve">
+    <value>Comm</value>
+  </data>
+  <data name="OPEN_MSG" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="OPTICS_MSG" xml:space="preserve">
+    <value>CA-210 / K8</value>
+  </data>
+  <data name="SUCCESS_MSG" xml:space="preserve">
+    <value>Successfully</value>
+  </data>
+  <data name="Xm92180" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Xm92180.ini;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="_008_Command_mode_init_code" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\008_Command_mode_init_code.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="Command_List" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Command List.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+</root>

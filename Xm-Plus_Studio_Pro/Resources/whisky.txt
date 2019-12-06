@@ -1,0 +1,39 @@
+#Script Sample code 20170913
+####################
+bridge.select 0x01				#Bridge select	0x01=Bank0(Left) 0x10=Bank2(Right)
+fpga.set 0x33 0x11 0x13 0xff 0x1E 0x0a	#PLL_EN ; EPP_EN ; I/F_mode1 ; I/F_mode2 ; DCM_m ; DCM_d
+mipi.video 1920 1080 60 16 16 30 30 4 4	#VA ; HA ; FR ; VBP ; VFP ; HBP ; HFP ; VS ; HS
+mipi.dsi 4 850 syncpulse			#Lane Num ; HS speed ; HS mode
+
+gpio.dir 0x11				#Set GPIO direction
+gpio.l.set 0x00				#Set GPIO low byte
+delay 10					
+gpio.l.set 0xff				#Set GPIO low byte
+
+#Set External DSV Power
+i2c.write 0x22 0x0c 0x48 
+i2c.write 0x22 0x09 0x0a 
+i2c.write 0x22 0x0d 0x67 
+i2c.write 0x22 0x0e 0x55 
+i2c.write 0x22 0x0f 0x55 
+i2c.write 0x22 0x02 0x50 
+i2c.write 0x22 0x0a 0x11
+
+#GPIO low byte bit0 for reset
+gpio.l.set 0xfe
+delay 10
+gpio.l.set 0xff
+#####################
+
+#load initial_code.txt
+
+#####################
+#Sleep out
+mipi.write 0x05 0x11
+delay 100
+
+#Display On
+mipi.write 0x05 0x29
+
+#Send Pattern
+image.fill 255 255 255
